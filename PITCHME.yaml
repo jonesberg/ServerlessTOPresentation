@@ -1,0 +1,80 @@
+#
+# GitPitch Quickstart Markdown Presentation
+#
+
+#
+# Theme Template
+# Doc: https://gitpitch.com/docs/themes/default
+#
+theme            : template
+
+theme-background : [ "#000000" ]
+theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
+theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
+theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
+theme-links      : [ "#F1C40F", "#5254F7" ]
+theme-code       : [ "Source Code Pro", "100", "120" ]
+theme-controls   : [ "#C0C0C0" ]
+theme-margins    : [ "0", "15px" ]
+layout           : center
+
+#
+# Highlight Setting
+# Doc: https://gitpitch.com/docs/settings/highlight
+#
+highlight : tomorrow
+
+#
+# Theme-Override Setting
+# Doc: https://gitpitch.com/docs/settings/custom-theme
+#
+theme-override: assets/css/PITCHME.css
+
+#
+# Logo Setting
+# https://gitpitch.com/docs/settings/logo
+#
+logo : assets/img/spark.svg
+logo-position : top-left
+
+#
+# Layout Setting
+# Doc: https://gitpitch.com/docs/settings/layout
+#
+layout : center
+
+#
+# Footnote Setting
+# Doc: https://gitpitch.com/docs/settings/footnote
+#
+footnote : "Getting acquainted with PySpark"
+
+#
+# Published Setting
+# Doc: https://gitpitch.com/docs/settings/published
+#
+published : true
+
+#
+# Twitter Card Settings
+# Doc: https://gitpitch.com/docs/settings/twitter-card
+#
+title : "GitPitch Quickstart Markdown Presentation"
+description : "GitPitch Markdown Presentations for Developers."
+# thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
+
+# PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
+theme            : template
+theme-background : [ "#403446" ]
+theme-headline   : [ "Montserrat", "#B3D6C9", "none", "#FFFFFF", "100", "120", "15" ]
+theme-byline     : [ "Raleway", "#FFFFFF", "none", "#B3D6C9", "100", "110", "15" ]
+theme-text       : [ "Ubuntu", "#B3D6C9", "none", "#92B9B3", "100", "100", "15" ]
+theme-links      : [ "#F1C40F", "#5254F7" ]
+theme-code       : [ "Source Code Pro", "100", "120" ]
+highlight        : hybrid
+theme-controls   : [ "#C0C0C0" ]
+theme-margins    : [ "0", "15px" ]
+logo             : assets/img/spark.png
+logo-position    : top-left
+layout           : center
+# PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-END
